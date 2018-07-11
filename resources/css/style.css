@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 940px;
+  margin: 0 auto; 
+}
+
+/* -------------------------------------------------------------*/
+/* Top Bar */
+/* -------------------------------------------------------------*/
+
+.top-bar {
+  height: 30px;
+  background-color: #4F94CD;
+}
+
+.top-nav {
+  float: right;
+  font-size: 70%;
+  margin-top: 7px;
+}
+
+.top-nav a {
+  color: #Ffffff;
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------*/
+/* Logo */
+/* -------------------------------------------------------------*/
+
+.logo {
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* -------------------------------------------------------------*/
+/* Hero */
+/* -------------------------------------------------------------*/
+
+.hero-photos{
+  height: 350px;
+  overflow: hidden;
+}
+
+.hero-photos img {
+  width: 100%;
+  margin-top: -20%;
+}
+
+/* -------------------------------------------------------------*/
+/* Main Nav */
+/* -------------------------------------------------------------*/
+
+.main-nav td {
+  margin-left: 20px;
+}
+
+/* -------------------------------------------------------------*/
+/* Bio */
+/* -------------------------------------------------------------*/
+
+.section-bio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.david-header {
+  color: #4F94CD;
+  margin-bottom: 20px;
+}
+
+.david-bio {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.david-bio img {
+  float: left;
+  margin-right: 30px;
+}
+
+.miodrag-bio {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.miodrag-header {
+  color: #4F94CD;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.miodrag-bio img {
+  float: left;
+  margin-right: 30px;
+}
