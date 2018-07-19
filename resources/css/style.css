@@ -31,20 +31,34 @@ html {
 /* -------------------------------------------------------------*/
 
 .top-bar {
-  height: 30px;
-  background-color: #4F94CD;
+  height: 6vh;
+  min-height: 30px;
+  background-color: #00AEEF;
+  z-index: 0;
+  width: 100%;
+  position: fixed;
 }
 
 .top-nav {
   float: right;
   font-size: 70%;
-  margin-top: 7px;
+  height: 100%;
 }
 
 .top-nav a {
   color: #Ffffff;
   text-decoration: none;
+  margin-right: 30px;
 }
+
+.top-nav table {
+  height: 100%;
+}
+
+.top-nav td {
+  height: 100%;
+}
+
 
 /* -------------------------------------------------------------*/
 /* Logo */
@@ -60,14 +74,39 @@ html {
 /* Hero */
 /* -------------------------------------------------------------*/
 
-.hero-photos{
-  height: 350px;
+.hero-text-box {
+  position: absolute;
+  width: 940px;
+  top: 50%;
+  left: 50%;
+  color: #00AEEF;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-header {
+  color: #00AEEF;
+  font-size: 250%;
+  font-weight: 500;
+}
+
+.hero-text-subtext {
+  color: #ffffffbd;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.hero-photo{
+  height: 97vh;
   overflow: hidden;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/college.jpeg);
+  background-size: cover;
+  background-position: 0% 10%;
+  background-attachment: fixed;
 }
 
 .hero-photos img {
   width: 100%;
-  margin-top: -20%;
+  margin-top: -5%;
 }
 
 /* -------------------------------------------------------------*/
