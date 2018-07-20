@@ -90,11 +90,11 @@ section {
 .hero-text-header {
   color: #00AEEF;
   font-size: 250%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero-text-subtext {
-  color: #ffffffbd;
+  color: #ffffffd7;
   font-size: 100%;
   font-weight: 300;
 }
@@ -120,13 +120,14 @@ section {
 .about-header {
   color: #00AEEF;
   font-size: 140%;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .about-text {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 80%;
   font-weight: 400;
+  letter-spacing: 0.25px;
   line-height: 150%;
 }
 
@@ -138,14 +139,36 @@ section {
   background-color: #f4f4f4;
 }
 
-.david-header {
-  margin-top: 30px;
+.miodrag-header {
+  margin-top: 40px;
   color: #00AEEF;
   margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.miodrag-bio {
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.25px;
+}
+
+.miodrag-bio img {
+  float: left;
+  margin-right: 30px;
 }
 
 .david-bio {
   font-size: 80%;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.25px;
+}
+
+.david-header {
+  color: #00AEEF;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-weight: 400;
 }
 
@@ -154,25 +177,23 @@ section {
   margin-right: 30px;
 }
 
-.miodrag-bio {
-  font-size: 80%;
-  font-weight: 400;
-}
-
-.miodrag-header {
-  color: #00AEEF;
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
-.miodrag-bio img {
-  float: left;
-  margin-right: 30px;
-}
-
 /* -------------------------------------------------------------*/
 /* Contact */
 /* -------------------------------------------------------------*/
+
+.contact-text-header {
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.contact-link {
+  margin-top: 10px;
+}
+
+.contact-link a {
+  color: #00AEEF;
+  text-decoration: none;
+}
 
 /* -------------------------------------------------------------*/
 /* Footer */
