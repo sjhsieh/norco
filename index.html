@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <section class="top-bar">
+      <div class="top-bar">
           <div class="top-nav">
             <table>
               <tbody>
@@ -19,13 +19,13 @@
                   <a href="#">Home</a>
                 </td>
                 <td>
-                  <a href="#">About</a>
+                  <a href="#section-about">About</a>
                 </td>
                 <td>
                   <a href="#">Application</a>
                 </td>
                 <td>
-                  <a href="#">Advisors</a>
+                  <a href="#section-bio">Advisors</a>
                 </td>
                 <td>
                   <a href="#">Contact</a>
@@ -33,21 +33,35 @@
               </tbody>
             </table>
           </div>
-      </section>
+        </div>
+        <div class="hero-photo">
+          <div class="hero-text-box">
+            <div class="hero-text-header">
+              Norco International
+            </div>
+            <div class="hero-text-subtext">
+              International Education Consulting
+            </div>
+          </div>
+        </div>
     </header>
-    <section>
-      <div class="hero-photo">
-        <div class="hero-text-box">
-          <div class="hero-text-header">
-            Norco International
-          </div>
-          <div class="hero-text-subtext">
-            International Education Consulting
-          </div>
+    <section id="section-about">
+      <div class="row">
+        <div class="about-header">
+          About Us
+        </div>
+        <div class="about-text">
+            Over 20 years of international education consulting experience. We help international students apply to high school, 
+            college, and postgraduate schools in the United States. We provide top tier consulting services and help students 
+            maximize their potential. We give students not only the knowledge to select the best school for themselves, 
+            but also the confidence to excel in higher education. 
         </div>
       </div>
     </section>
-    <section class="section-bio">
+    <section class="section-bio" id="section-bio">
+      <div class="row about-header">
+        Advisors
+      </div>
       <div class="row david-header">
         David Li
       </div>
@@ -70,5 +84,25 @@
           universities throughout the U.S. and he always strives to help international students achieve their dreams. 
       </div>
     </section>
+    <section id="section-contact">
+      <div class="row">
+        <div class="about-header">
+          Contact Us
+        </div>
+        <div class="contact-text">
+            Over 20 years of international education consulting experience. We help international students apply to high school, 
+            college, and postgraduate schools in the United States. We provide top tier consulting services and help students 
+            maximize their potential. We give students not only the knowledge to select the best school for themselves, 
+            but also the confidence to excel in higher education. 
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <p>
+          Copyright &copy; 2018 by Norco International, LLC. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
