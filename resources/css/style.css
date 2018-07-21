@@ -227,13 +227,13 @@ section {
   width: 100%;
 }
 
-.section-contact{
+/* .section-contact{
   overflow: hidden;
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://sjhsieh.github.io/norco/resources/css/images/graduation.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://sjhsieh.github.io/norco/resources/css/images/college.jpeg);
   background-size: cover;
   background-position: 0% 10%;
   background-attachment: fixed;
-}
+} */
 
 /* -------------------------------------------------------------*/
 /* Footer */
