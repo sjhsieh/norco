@@ -111,11 +111,6 @@ section {
   background-attachment: fixed;
 }
 
-.hero-photos img {
-  width: 100%;
-  margin-top: -5%;
-}
-
 /* -------------------------------------------------------------*/
 /* About */
 /* -------------------------------------------------------------*/
@@ -230,6 +225,14 @@ section {
 
 .contact-image img {
   width: 100%;
+}
+
+.section-contact{
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://sjhsieh.github.io/norco/resources/css/images/graduation.jpeg);
+  background-size: cover;
+  background-position: 0% 10%;
+  background-attachment: fixed;
 }
 
 /* -------------------------------------------------------------*/
