@@ -152,6 +152,53 @@ section {
   color: #ffffff;
 }
 
+/* -------------------------------------------------------------*/
+/* Testimonials */
+/* -------------------------------------------------------------*/
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://sjhsieh.github.io/norco/resources/css/images/graduation.jpeg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.testimonials-header {
+  color: #ffffff;
+  font-size: 140%;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display:block;
+}
+
+blockquote:before{
+  content: "\201c";
+  font-size:500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 /* -------------------------------------------------------------*/
 /* Bio */
