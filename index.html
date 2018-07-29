@@ -8,6 +8,15 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet" type="text/css">
     <title>Norco International</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script> 
+    <script src="http://maps.google.com/maps/api/js"></script>
+    <script src="gmaps.js"></script>
+    <style type="text/css">
+      #map {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -158,27 +167,30 @@
     </section>
     <section class="section-contact">
       <div class="row">
-        <div class="about-header">
-          Contact Us
+        <div class="col span-1-of-2">
+          <div class="about-header">
+            Contact Us
+          </div>
+          <div class="contact-text-header">
+              Email:
+          </div>
+          <div class="contact-link">
+            <a href="mailto:info@norcointernational.com">info@norcointernational.com</a>
+          </div>
+          <div class="contact-text-header">
+              Phone:
+          </div>
+          <div class="contact-link">
+            (714) 340 - 3008
+          </div>
+          <div class="contact-text-header">
+              Location:
+          </div>
+          <div class="contact-link">
+            Anaheim, CA
+          </div>
         </div>
-        <div class="contact-text-header">
-            Email:
-        </div>
-        <div class="contact-link">
-          <a href="mailto:info@norcointernational.com">info@norcointernational.com</a>
-        </div>
-        <div class="contact-text-header">
-            Phone:
-        </div>
-        <div class="contact-link">
-          (714) 340 - 3008
-        </div>
-        <div class="contact-text-header">
-            Location:
-        </div>
-        <div class="contact-link">
-          Anaheim, CA
-        </div>
+        <div id="map" class="col span-1-of-2"></div>
       </div>
     </section>
     <footer>
@@ -190,3 +202,31 @@
     </footer>
   </body>
 </html>
+
+<script>
+    var map = new GMaps({
+      div: '#map',
+      lat: 33.8366,
+      lng: -117.9143,
+      zoom: 10,
+      markers: [
+        {lat: 33.8366, lng: -117.9143},
+      ]
+    });
+    map.addMarker({
+      lat: 33.8366,
+      lng: -117.9143,
+      title: 'Norco International'
+    });
+    // url = GMaps.staticMapURL({
+    //   size: [400, 400],
+    //   lat: 33.8366,
+    //   lng: -117.9143,
+    //   zoom: 10,
+    //   markers: [
+    //     {lat: 33.8366, lng: -117.9143},
+    //   ]
+    // });
+    // $('<img/>').attr('src', url)
+    //   .appendTo('#map');
+</script>
