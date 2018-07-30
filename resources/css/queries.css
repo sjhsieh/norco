@@ -41,6 +41,13 @@
     width: 100%;
   }
 
+  .hero-photo {
+    background-attachment: scroll;
+  }
+
+  .section-testimonials {
+    background-attachment: scroll;
+  }
   .row,
   .hero-text-box { padding: 0 4%; }
 }
