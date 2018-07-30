@@ -1,0 +1,71 @@
+
+/* big tablet to 1200px widths smaller than the 1140px row  */
+@media only screen and (max-width: 1035px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .row { padding: 0 2%; }
+}
+
+/* small tablets to big tablets from 768 to 1023 px (<ipad landscape) */
+@media only screen and (max-width: 994px) {
+  body { font-size: 18px; }
+  section { padding: 60px 0; }
+  .row,
+  .hero-text-box { padding: 0 4%; }
+  .col { 
+    margin: 0 0 4% 0%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 898) {
+  .col { 
+    margin: 0 0 4% 0%;
+    width: 100%;
+  }
+}
+
+/* small phones to small tablets from 481 to 767 px (<ipad) */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .col { 
+    margin: 0 0 4% 0%;
+    width: 100%;
+  }
+
+  .row,
+  .hero-text-box { padding: 0 4%; }
+}
+
+@media only screen and (max-width: 530px) {
+  .non-contact-nav {
+    display: none;
+  }
+
+
+  .col { 
+    margin: 0 0 4% 0%;
+    width: 100%;
+  }
+}
+
+/* width of small phones 0 to 480 px (iphone 4, 5) */
+@media only screen and (max-width: 480px) {
+  section { padding: 25px 0; }
+  .col { 
+    margin: 0 0 4% 0%;
+    width: 100%;
+  }
+
+  .gm-style {
+    width: 380px;
+  }
+}
